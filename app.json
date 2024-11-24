@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app1",
-    "slug": "app1",
+    "name": "aora",
+    "slug": "aora",
     "schema":"aora",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,10 +20,13 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+        
+      },
+      "package":"com.Anwar.aora"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     },
     "plugins": [
       "expo-router"

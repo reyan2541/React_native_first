@@ -1,5 +1,5 @@
 {
-  "name": "app1",
+  "name": "aora",
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
@@ -9,16 +9,24 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~52.0.7",
+    "@expo/metro-runtime": "~4.0.0",
+    "expo": "~52.0.11",
+    "expo-router": "~4.0.9",
     "expo-status-bar": "~2.0.0",
+    "nativewind": "^4.1.23",
     "react": "18.3.1",
-    "react-native": "0.76.2",
     "react-dom": "18.3.1",
+    "react-native": "^0.76.3",
+    "react-native-appwrite": "^0.5.0",
+    "react-native-reanimated": "^3.16.2",
+    "react-native-safe-area-context": "^4.12.0",
+    "react-native-url-polyfill": "^2.0.0",
     "react-native-web": "~0.19.13",
-    "@expo/metro-runtime": "~4.0.0"
+    "tailwindcss": "^3.4.15"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "babel-preset-expo": "^12.0.1"
   },
   "private": true
 }
